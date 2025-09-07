@@ -529,7 +529,7 @@ class Qwen2VLGRPOTrainer(Trainer):
         if inputs[0]['data_type'] == 'video':
             prompt_inputs["pixel_values_videos"] = prompt_inputs["pixel_values_videos"].repeat(len(prompt_completion_ids), 1)
             prompt_inputs["video_grid_thw"] = prompt_inputs["video_grid_thw"].repeat(len(prompt_completion_ids), 1)
-            if 'second_per_grid_ts' in prompt_inputs:
+            if 'second_per_grid_ts' in prompt_inputs: # this two lines could be deleted: https://github.com/tulerfeng/Video-R1/issues/73
                 del prompt_inputs["second_per_grid_ts"]
                 # prompt_inputs["second_per_grid_ts"] = torch.tensor(prompt_inputs["second_per_grid_ts"]).repeat(len(prompt_completion_ids), 1)
         
