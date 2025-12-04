@@ -19,7 +19,7 @@ Video-R1-7B **can be easily trained** using 4 H20 (96GB) GPUs, or 5 A100 (80G) G
 
 🔥🔥🔥 **OneThinker: All-in-one Reasoning Model for Image and Video**  
 <p align="center">
-    <img src="./images/teaser.png" width="60%" height="60%">
+    <img src="./images/teaser.png" width="80%" height="80%">
 </p>
 
 <font size=7><div align='center' > [[🍎 Project Page](https://github.com/tulerfeng/OneThinker)] [[📖 arXiv Paper](https://arxiv.org/pdf/2512.03043)]  </div></font>
@@ -27,7 +27,7 @@ Video-R1-7B **can be easily trained** using 4 H20 (96GB) GPUs, or 5 A100 (80G) G
 [2025.12.03] We're excited to release OneThinker, an all-in-one multimodal reasoning generalist for image and video that is capable of thinking across a wide range of fundamental visual tasks within a single model. 🌟  
 
 It supports Qwen3-VL training, enables multi-node distributed training, and allows mixed image-video training across diverse visual tasks.
-The code, model, and datasets are all publicly released.. Both code, model and data are released
+The code, model, and datasets are all publicly released. ✨
 
 
 ---
