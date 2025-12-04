@@ -18,9 +18,9 @@ Video-R1-7B **can be easily trained** using 4 H20 (96GB) GPUs, or 5 A100 (80G) G
 ---
 
 🔥🔥🔥 **OneThinker: All-in-one Reasoning Model for Image and Video**  
-<!-- <p align="center">
-    <img src="./images/onethinker.png" width="90%" height="90%">
-</p> -->
+<p align="center">
+    <img src="./images/teaser.png" width="60%" height="60%">
+</p>
 
 <font size=7><div align='center' > [[🍎 Project Page](https://github.com/tulerfeng/OneThinker)] [[📖 arXiv Paper](https://arxiv.org/pdf/2512.03043)]  </div></font>
 
